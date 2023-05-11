@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <p>다음과 같은 FORM 양식을 완성하세요</p>
+
+    <fieldset style="background-color: rgb(212, 211, 211);">
+
+
+        <strong>세미나 정보</strong>
+        <ol>
+            <li>
+                주제: 차세대 웹 표준 기술 HTML
+            </li>
+            <li>
+                일정: 5월 12일 14:00 ~ 17:00
+            </li>
+            <li>
+                장소: 공학관 2층 세미나실
+            </li>
+            <li>
+                인원: 선착순 100명
+            </li>
+            <li>
+                비용: 본교 학생 무료 (외부 참가자 5000원)
+            </li>
+            <li>
+                참가신청 : 아래양식에 빠짐없이 기입하여 접수해 주세요
+            </li>
+
+        </ol>
+
+
+
+    </fieldset>
+
+    <form>
+
+
+        <h3>개인정보</h3>
+
+
+
+        <ul>
+            <li>
+                <label for="name" class="title">이름</label>
+                <input id="name" type="text" /><br />
+            </li>
+            <li>
+                <label for="password" class="title">비밀번호</label>
+                <input id="password" type="password" style="width: 150px;" /> ( 수정시 필요 )<br />
+            </li>
+        </ul>
+
+        <h3>참가 정보</h3>
+
+
+        <fieldset>
+            <legend>참가 유형 선택</legend>
+            <input type="radio"> 무료(교내참가자) <input type="radio"> 유료(교외참가자)
+        </fieldset>
+
+
+        <fieldset>
+            <legend>관심 분야 선택</legend>
+            <input type="checkbox"> HTML5 시맨틱
+            <input type="checkbox"> CSS3
+            <input type="checkbox"> Wep Storage
+            <input type="checkbox"> Cancas
+            <input type="checkbox"> Geolocaton
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
+<style>
+    ul {
+        list-style-type: none;
+    }
+
+    label {
+        width: 80px;
+        float: left;
+    }
+</style>
